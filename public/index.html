@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" ng-app="Fingonic">
+<head>
+  <title>FinGonic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap-4.0.0.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap-datepicker.standalone.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/app.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+
+  <div ui-view></div>
+  <footer class="footer zIndexBack">Noviembre 2020 - FinGonic &copy; v2.2.1</footer>
+
+  <script src="/js/jquery-1.12.1.min.js"></script>
+  <script src="/js/tether-1.3.3.min.js"></script>
+  <script src="/js/bootstrap-4.0.0.min.js"></script>
+  <script src="/js/bootbox-4.4.0.min.js"></script>  
+  <script src="/js/underscore-1.8.3.min.js"></script>
+  <script src="/js/moment-2.18.1.min.js"></script>
+  <script src="/js/chart-2.5.0.min.js"></script>  
+  <script src="/js/angular-1.5.0.min.js"></script>
+  <script src="/js/angular-ui-router-0.2.18.min.js"></script>  
+  <script src="/js/angular-animate-1.5.8.js"></script>
+  <script src="/js/angular-sanitize-1.5.8.js"></script>
+  <script src="/js/angular-chart-1.1.1.min.js"></script>
+  <script src="/js/angular-locale-es.js"></script>
+  <script src="/js/ui-bootstrap-tpls-2.4.0.js"></script>
+  <script src="/js/bootstrap-datepicker.min.js"></script>
+  <script src="/js/bootstrap-datepicker.es.min.js"></script>
+  <script src="/js/helpers.js"></script>
+  <script src="/js/services.js"></script>
+  <script src="/js/factories.js"></script>
+  <script src="/js/directives.js"></script>
+  <script src="/js/app.js"></script>  
+  <script type="text/javascript">
+    $(function() {
+      // Redirección de todas las peticiones http a https
+      if(window.location.protocol === "http:") {
+        window.location.protocol = "https";
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "QsN57dtteQDAyZa8ssuWyi6TFsg=",
+			"path": "github.com/dgrijalva/jwt-go",
+			"revision": "dc14462fd58732591c7fa58cc8496d6824316a82",
+			"revisionTime": "2020-01-07T01:32:13Z"
+		},
+		{
+			"checksumSHA1": "tQNt4NQpd1u0h63gz0VfkWOR+pM=",
+			"path": "github.com/globalsign/mgo",
+			"revision": "eeefdecb41b842af6dc652aaea4026e8403e62df",
+			"revisionTime": "2018-10-15T13:59:52Z"
+		},
+		{
+			"checksumSHA1": "9KFAiHfDmSUHyloRlzWA9wFyEWI=",
+			"path": "github.com/globalsign/mgo/bson",
+			"revision": "eeefdecb41b842af6dc652aaea4026e8403e62df",
+			"revisionTime": "2018-10-15T13:59:52Z"
+		},
+		{
+			"checksumSHA1": "1iY8pZI4hTyFuQtdp5AWghFqs50=",
+			"path": "github.com/globalsign/mgo/internal/json",
+			"revision": "eeefdecb41b842af6dc652aaea4026e8403e62df",
+			"revisionTime": "2018-10-15T13:59:52Z"
+		},
+		{
+			"checksumSHA1": "v3KpN1YL1/+YU9QgqgDl4kvvBco=",
+			"path": "github.com/globalsign/mgo/internal/sasl",
+			"revision": "eeefdecb41b842af6dc652aaea4026e8403e62df",
+			"revisionTime": "2018-10-15T13:59:52Z"
+		},
+		{
+			"checksumSHA1": "AKJfdKarCr3wFfBFAc1DozFQqbA=",
+			"path": "github.com/globalsign/mgo/internal/scram",
+			"revision": "eeefdecb41b842af6dc652aaea4026e8403e62df",
+			"revisionTime": "2018-10-15T13:59:52Z"
+		},
+		{
+			"checksumSHA1": "ky/3NljRwMf4Yj8Do7TiDIC+TEU=",
+			"path": "github.com/gorilla/mux",
+			"revision": "d07530f46e1eec4e40346e24af34dcc6750ad39f",
+			"revisionTime": "2020-09-12T19:20:56Z"
+		},
+		{
+			"checksumSHA1": "NsgY+is8L8/rzo+Oq9ijf8T8hTU=",
+			"path": "github.com/tidwall/gjson",
+			"revision": "5100d6926a4bea3753fc72352fca70654f04cedc",
+			"revisionTime": "2020-11-04T23:26:43Z"
+		},
+		{
+			"checksumSHA1": "skDDKInDply2bZxGF0+OBvsXA1k=",
+			"path": "github.com/tidwall/match",
+			"revision": "9e52e9e068387201730ec4876bac3a1902d0eef8",
+			"revisionTime": "2020-11-03T17:51:01Z"
+		},
+		{
+			"checksumSHA1": "Zc4IFw6IfGMkk1Spp8BwqSrYvsg=",
+			"path": "github.com/tidwall/pretty",
+			"revision": "6125e211625ae96faecf7d76f623c40862dc01d8",
+			"revisionTime": "2020-11-03T18:48:44Z"
+		}
+	],
+	"rootPath": "Fingonic"
+}

@@ -1,0 +1,786 @@
+/* XS */
+body {
+	font-size: 14px;
+}
+
+.bgAzul {
+	background-color: #2fa4e7;
+}
+
+.bgAzulClaro {
+	background-color: #effbfb !important;
+}
+
+.bgGrisClaro {
+	background-color: #eeeeee !important;
+}
+
+.bgVerdeClaro {
+	background-color: #e8f6f3;
+}
+
+.bgWhite {
+	background-color: white;
+}
+
+.borderAzul {
+	border: 1px solid #006699;
+}
+
+.borderRojo {
+	border: 1px solid red;
+}
+
+.borderVerde {
+	border: 1px solid #339966;
+}
+
+.boxImporte {
+	width: 80%;
+}
+
+.brand {
+  font-size: 42px;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+.colorAzul {
+	color: #006699;
+}
+
+.colorBlanco {
+	color: #ffffff;
+}
+
+.colorRojo {
+	color: red;
+}
+
+.colorVerde {
+	color: #339966;
+}
+
+.compra {
+	background-color: #9fcf9f;
+	color: white;
+}
+
+.cursorPointer {
+	cursor: pointer;
+}
+
+.displayNone {
+	display: none;
+}
+
+.fontBold {
+	font-weight: bold;
+}
+
+.fontGris {
+	color: #777777 !important;
+}
+
+.fontSize13 {
+	font-size: 13px;
+}
+
+.fontSize15 {
+	font-size: 15px;
+}
+
+.fontSize26 {
+	font-size: 26px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  height: 25px;
+  font-size: 12px;
+  color: #888888;
+  text-align: center;
+}
+
+.height20 {
+	height: 20px;
+}
+
+.inputFecha {
+	width: 80%;
+}
+
+.marginLeft3 {
+	margin-left: 3px;
+}
+
+.marginLeft15 {
+	margin-left: 15px;
+}
+
+.marginRight10 {
+	margin-right: 10px;
+}
+
+.marginTop20 {
+	margin-top: 20px;
+}
+
+.marginTop30 {
+	margin-top: 30px;
+}
+
+.marginTop55 {
+	margin-top: 55px;
+}
+
+.marginTop65 {
+	margin-top: 65px;
+}
+
+.marginTop130 {
+	margin-top: 130px;
+}
+
+.marginTop140 {
+	margin-top: 140px;
+}
+
+.marginTop240 {
+	margin-top: 240px;
+}
+
+.menuButton {
+	display: none;
+}
+
+.menuList {
+	display: block;
+}
+
+.noBorder {
+	border: 0px !important;
+}
+
+.online {
+	color: #008000;
+}
+
+.manual {
+	color: #ff4500;
+}
+
+.paddingBottom20 {
+	padding-bottom: 20px;
+}
+
+.paddingTop20 {
+	padding-top: 20px;
+}
+
+.positionAbsolute {
+	position: absolute;
+}
+
+.venta {
+	background-color: #f1948a;
+	color: white;
+}
+
+.width25 {
+	width: 25px;
+}
+
+.width30 {
+	width: 30px;
+}
+
+.width50 {
+	width: 50px;
+}
+
+.width80 {
+	width: 80px;
+}
+
+.width100 {
+	width: 100px;
+}
+
+.width110 {
+	width: 110px;
+}
+
+.width120 {
+	width: 120px;
+}
+
+.width150 {
+	width: 150px;
+}
+
+.width200 {
+	width: 200px;
+}
+
+.width300 {
+	width: 300px;
+}
+
+.width350 {
+	width: 350px;
+}
+
+.width400 {
+	width: 400px;
+}
+
+.zIndexBack {
+	z-index: -1;
+}
+
+.zIndexTop {
+	z-index: 2;
+}
+
+.zIndexMiddle {
+	z-index: 1;
+}
+
+#divConfigLiquidezInversiones {
+	clear: both;
+}
+
+#divConfigCategorias {
+	clear: both;
+	margin-top: 20px;
+}
+
+#divConfigMovimientos {
+	clear: both;	
+	margin-top: 20px;
+}
+
+#divConfigTipoVista {
+	clear: both;
+	margin-top: 20px;
+}
+
+#divConfigButtonModificar {
+	clear: both;
+	margin-top: 20px;
+}
+
+#divNuevoMovimientoFecha {
+	clear: both;
+	vertical-align: top;
+}
+
+#divNuevoMovimientoCategoria {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divNuevoMovimientoCategoria input {
+	width: 250px;
+}
+
+#divNuevoMovimientoConcepto {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divNuevoMovimientoConcepto input {
+	width: 250px;
+}
+
+#divNuevoMovimientoImporte {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divNuevoMovimientoButtonAceptar {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divGraficaFechaDesde {
+	display: block;
+}
+
+#divGraficaFechaHasta {
+	display: block;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+#divGraficaButtonAceptar {
+	display: block;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+#divNuevoActivoCodigo {
+	clear: both;
+	vertical-align: top;
+}
+
+#divNuevoActivoDescripcion {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divNuevoActivoWsUrl {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divNuevoActivoWsUrl input {
+	width: 230px;
+}
+
+#divNuevoActivoWsPathPrecio {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divNuevoActivoPrecioManual {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divNuevoActivoButtonAceptar {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divNuevaOperacionFecha {
+	clear: both;
+	vertical-align: top;
+}
+
+#divNuevaOperacionActivo {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divNuevaOperacionTipo {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divNuevaOperacionTitulos {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divNuevaOperacionImporte {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divNuevaOperacionComision {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divNuevaOperacionButtonAceptar {
+	clear: both;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#divOperacionesFechaDesde {
+	display: block;
+}
+
+#divOperacionesFechaHasta {
+	display: block;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+#divOperacionesActivo {
+	display: block;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+#divOperacionesButtonAceptar {
+	display: block;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+#divTableOperaciones {
+	margin-top: 400px;
+}
+
+/* SM Portrait */
+@media only screen and (min-width: 576px) and (orientation: portrait) { 
+	.brand {
+		font-size: 65px;
+	}
+
+  .menuButton {
+	  display: block;
+  }
+
+  .menuList {
+	  display: none;
+  }
+
+  #divNuevoMovimientoCategoria input {
+	  width: 350px;
+  }
+
+  #divNuevoMovimientoConcepto input {
+	  width: 350px;
+  }
+
+  #divGraficaFechaDesde {
+	  display: inline-block;
+  }
+
+  #divGraficaFechaHasta {
+	  display: inline-block;
+	  margin-left: 30px;
+	  margin-top: 0px;
+  }
+
+  #divGraficaButtonAceptar {
+	  display: inline-block;
+	  margin-left: 30px;
+	  margin-top: 0px;
+  }
+
+  #divNuevoActivoWsUrl input {
+	  width: 350px;
+  }
+
+  #divOperacionesFechaDesde {
+  	display: inline-block;
+  }
+
+  #divOperacionesFechaHasta {
+  	display: inline-block;
+  	margin-left: 30px;
+  	margin-top: 0px;
+  }
+
+  #divOperacionesActivo {
+  	display: inline-block;
+  	margin-left: 30px;
+  	margin-top: 0px;
+  }
+
+  #divOperacionesButtonAceptar {
+  	display: inline-block;
+  	margin-left: 30px;
+  	margin-top: 0px;
+  }
+
+  #divTableOperaciones {
+	  margin-top: 240px;
+  }
+}
+
+/* SM Landscape */
+@media only screen and (min-width: 576px) and (orientation: landscape) { 
+	.brand {
+		font-size: 65px;
+	}
+
+  .menuButton {
+	  display: block;
+  }
+
+  .menuList {
+	  display: none;
+  }
+
+	#divUsername {
+		display: inline-block;
+		margin-top: 5px !important;
+	}
+
+	#divPassword {
+		display: inline-block;
+	}
+
+	#divLogin {
+		display: inline-block;
+		margin-top: 0px;
+	}
+
+	#divMsgLogin {
+		margin-top: 10px !important;
+	}
+
+  #divNuevoMovimientoCategoria input {
+	  width: 350px;
+  }
+
+  #divNuevoMovimientoConcepto input {
+	  width: 350px;
+  }
+
+  #divGraficaFechaDesde {
+	  display: inline-block;
+  }
+
+  #divGraficaFechaHasta {
+	  display: inline-block;
+	  margin-left: 30px;
+	  margin-top: 0px;
+  }
+
+  #divGraficaButtonAceptar {
+	  display: inline-block;
+	  margin-left: 30px;
+	  margin-top: 0px;
+  }
+
+  #divNuevoActivoWsUrl input {
+	  width: 350px;
+  }
+
+  #divOperacionesFechaDesde {
+  	display: inline-block;
+  }
+
+  #divOperacionesFechaHasta {
+  	display: inline-block;
+  	margin-left: 30px;
+  	margin-top: 0px;
+  }
+
+  #divOperacionesActivo {
+  	display: inline-block;
+  	margin-left: 30px;
+  	margin-top: 0px;
+  }
+
+  #divOperacionesButtonAceptar {
+  	display: inline-block;
+  	margin-left: 30px;
+  	margin-top: 0px;
+  }
+
+  #divTableOperaciones {
+	  margin-top: 240px;
+  }
+}
+		
+/* MD */
+@media only screen and (min-width: 768px) {
+	#divUsername {
+		display: block;
+		margin-top: 50px !important;
+	}
+
+	#divPassword {
+		display: block;
+	}
+
+	#divLogin {
+		display: block;
+		margin-top: 0px;
+	}
+
+	#divMsgLogin {
+		margin-top: 30px !important;
+	}
+
+  #divOperacionesFechaDesde {
+  	display: inline-block;
+  }
+
+  #divOperacionesFechaHasta {
+  	display: inline-block;
+  	margin-left: 30px;
+  	margin-top: 0px;
+  }
+
+  #divOperacionesActivo {
+  	display: inline-block;
+  	margin-left: 30px;
+  	margin-top: 0px;
+  }
+
+  #divOperacionesButtonAceptar {
+  	display: inline-block;
+  	margin-left: 30px;
+  	margin-top: 0px;
+  }
+
+  #divTableOperaciones {
+	  margin-top: 240px;
+  }
+}
+		
+/* LG */
+@media only screen and (min-width: 992px) {
+  #divTableOperaciones {
+	  margin-top: 240px;
+  }
+}
+
+/* XL */
+@media only screen and (min-width: 1200px) {
+  #divConfigLiquidezInversiones {
+	  display: inline-block;
+	  margin-top: 0px;
+  }
+
+  #divConfigCategorias {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divConfigMovimientos {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divConfigTipoVista {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divConfigButtonModificar {
+	  display: inline-block;
+	  margin-top: 50px;
+	  margin-left: 30px;
+  }
+
+  #divNuevoMovimientoFecha {
+	  display: inline-block;
+	  margin-top: 0px;
+  }
+
+  #divNuevoMovimientoCategoria {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divNuevoMovimientoConcepto {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divNuevoMovimientoImporte {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divNuevoMovimientoButtonAceptar {
+    display: inline-block;
+	  margin-top: 25px;
+	  margin-left: 30px;
+  }
+
+  #divNuevoActivoCodigo {
+	  display: inline-block;
+	  margin-top: 0px;
+  }
+
+  #divNuevoActivoDescripcion {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divNuevoActivoWsUrl {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divNuevoActivoWsPathPrecio {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divNuevoActivoPrecioManual {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divNuevoActivoButtonAceptar {
+    display: inline-block;
+	  margin-top: 25px;
+	  margin-left: 30px;
+  }
+
+  #divNuevaOperacionFecha {
+	  display: inline-block;
+	  margin-top: 0px;
+  }
+
+  #divNuevaOperacionActivo {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divNuevaOperacionTipo {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divNuevaOperacionTitulos {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divNuevaOperacionImporte {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divNuevaOperacionComision {
+	  display: inline-block;
+	  margin-top: 0px;
+	  margin-left: 30px;
+  }
+
+  #divNuevaOperacionButtonAceptar {
+    display: inline-block;
+	  margin-top: 25px;
+	  margin-left: 30px;
+  }
+
+  #divTableOperaciones {
+	  margin-top: 240px;
+  }
+}
